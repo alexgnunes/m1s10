@@ -1,4 +1,5 @@
 import Button from "./components/Button";
+import IsActive from "./components/IsActive";
 import List from "./components/List";
 import Product from "./components/Product";
 
@@ -11,6 +12,9 @@ function App() {
      <List nomeAluno= 'Elena'/>
      <List nomeAluno= 'Alex'/>
      <List nomeAluno= 'Elena'/>
+
+     <IsActive isActive={true} />
+     <IsActive isActive={false} />
     </div>
   );
 }
